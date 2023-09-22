@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.container_intro {
+  background-image: url(https://www.nobroker.in/blog/wp-content/uploads/2021/10/Light-Paint-Colours-For-The-Living-Room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+.container_intro p {
+  position: absolute;
+  font-size: 72px;
+  letter-spacing: normal;
+  line-height: 5rem;
+  top: 10rem;
+  left: 12rem;
+  color: rgb(14, 5, 5);
+}
+.intro_button {
+  background-color: black;
+  position: absolute;
+  left: 35rem;
+  top: 28rem;
+  border-radius: 0%;
+}
+.features {
+  text-align: center;
+}
+.my_cards1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+.my_cards {
+  border: 0px;
+}
+.my_proofs {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+.my_title h3 {
+  color: rgb(255, 225, 0);
+}
